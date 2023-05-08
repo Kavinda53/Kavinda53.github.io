@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- Quiz Page -->
+<html lang="en">
+   <head> 
+      <meta charset="utf-8">
+      <meta name="keywords" content="[HTML5, Topics page on Nest.js]">
+      <meta name="author" content="Kavinda, Chamath, Author, Sithara, Risindi, Kaveesha">
+      <link rel="stylesheet" href="styles/style.css">    
+      <meta name="viewport" content="width=device-width, initial-scale=1">     
+      <title>Quiz</title>
+   </head>
+
+   <body class="bodyquiz">
+         <div class="navbarquiz">
+            <a href="https://nestjs.com"><img src="images/nestwhitelogo.png" alt="nestlogo" class="logoquiz"></a>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="topic.html">Explore Nest.Js</a></li>
+               <li><a href="quiz.html">Quiz</a></li>
+               <li><a href="enhancements.html">Enhancements</a></li>
+               <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+         </div>
+
+         <h1 class="quizone">Quiz</h1>
+
+         <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+            
+               <fieldset>
+                  <legend>Personal Details</legend>      
+                     <label for="firstname">First Name</label>
+                     <input type="text" name="firstname" id="firstname" maxlength="30" pattern="[a-zA-Z\- ]{1,30}" required="required">
+                     <br>
+                     <label for="lastname">Last Name</label>
+                     <input type="text" name="lastname" id="lastname" maxlength="30" pattern="[a-zA-Z\- ]{1,30}" required="required">
+                     <br>
+                     <label for="studentid">Student Number</label>
+                     <input type="text" id="studentid"  pattern="[0-9]{7}|[0-9]{10}" required="required">    
+               </fieldset>
+         
+               <fieldset>
+                  <legend> Question 1 </legend>
+                     <p>What programming language is used to build applications in  nest.js?</p>
+                        <p>
+                           <input type ="radio" id ="answer1" name="question1" value="false" required="required">
+                           <label for ="answer1">Python</label>
+                        </p>
+                     
+                        <p>
+                           <input type ="radio" id ="answer2" name="question1" value="true">
+                           <label for ="answer2">TypeScript</label>
+                        </p>
+                     
+                        <p>
+                           <input type ="radio" id ="answer3" name="question1" value="false">
+                           <label for ="answer3">C++</label>       
+                        </p>
+                     
+                        <p>
+                           <input type ="radio" id ="answer4" name="question1" value="false">
+                           <label for ="answer4">Ruby</label>                  
+                        </p>
+                     
+               </fieldset>
+               
+               <fieldset>
+                  <legend>Question 2</legend>
+                  
+                     <p>
+                        <label for="Answers">In the survey conducted by the "State of Javascript Website" what is considered the most popular flavor of JavaScript?</label><br>
+                        <select class="quizoneq" name="Answer" id="Answers">                    
+                           <option value="1">ReScript</option>
+                           <option value="2">CoffeeScript</option>
+                           <option value="3">ELM</option>
+                           <option value="4">TypeScript</option>                     
+                        </select>
+               </fieldset>
+               
+               
+               
+               <fieldset>
+                  <legend>Question 3</legend>
+                  <p>What statement out of the below is most suitable to define Nest.JS?</p>
+                     <p>
+                        <input type ="checkbox" id ="an1" name="category[]" value="an1">
+                        <label for="an1">An object oriented programming language</label>                  
+                     </p>
+                  
+                     <p>
+                        <input type ="checkbox" id ="an2" name="category[]" value="an2">
+                        <label for="an2">A web page developing application</label>
+                     </p>
+                  
+                     <p>
+                        <input type ="checkbox" id ="an3" name="category[]" value="an3">                  
+                        <label for="an3">A progressive Node.JS framework</label>
+                     </p>
+                        
+                     <p>
+                        <input type ="checkbox" id ="an4" name="category[]" value="an4">
+                        <label for="an4">A general purpose scripting language</label>                  
+                     </p>               
+               </fieldset>
+               
+               
+               <fieldset>
+                  <legend>Question 4</legend>
+                     <p>                  
+                        <label for="Answer">Who is the main Developer of Nest.JS?</label><br>
+                        <input type="text" name="Answer" id="Answer" maxlength="25" size="70" required="required">               
+                     </p>
+               </fieldset>
+                  
+                     
+               <fieldset>
+                  <legend>Question 5</legend>              
+                     <p>What is the main problem that Nest.JS provide a solution when compared to super libraries, helpers and tools exisiting for Node?</p>
+                     <p>
+                        <input type ="radio" id ="q5answer1" name="question1" value="answer1" required="required">
+                        <label for ="answer1">Provides an effective solution for Architechture</label>                                 
+                     </p>
+                  
+                     <p>
+                        <input type ="radio" id ="q5answer2" name="question1" value="answer2">
+                        <label for ="answer2">Introduces a new language called TypeScript easier for web devlopment</label>            
+                     </p>
+                  
+                     <p>
+                        <input type ="radio" id ="q5answer3" name="question1" value="answer3">
+                        <label for ="answer3">Provides an AI model for easier backend development</label>                  
+                     </p>
+                     
+                     <p>
+                        <input type ="radio" id ="q5answer4" name="question1" value="answer4">
+                        <label for ="answer4">Provides a solution for Internet Security</label>   
+                     </p>
+               </fieldset>
+               
+               <fieldset>
+                  <legend>Question 6</legend>
+                  <p>How many core concepts are used by Nest.JS which makes it unique?</p>
+                  <input type="number" min="1" max="5" value="1">
+               </fieldset>
+         
+               <fieldset>
+                        <legend>Question 7</legend>  
+                        <p>What makes it possible for front-end developers to easily use Nest.JS?</p>                   
+                           <p>
+                              <input type ="checkbox" id ="q7an1" name="category[]" value="an1">
+                              <label for="an1">It provides free back-end development.</label>                        
+                           </p>
+                        
+                           <p>
+                              <input type ="checkbox" id ="q7an2" name="category[]" value="an2">
+                              <label for="an2">Nest.JS uses PHP</label>                        
+                           </p>
+                        
+                           <p>
+                              <input type ="checkbox" id ="q7an3" name="category[]" value="an3">
+                              <label for="an3">Use of Nest.JS sets aside for back-end development</label>                        
+                           </p>
+                              
+                           <p>
+                              <input type ="checkbox" id ="q7an4" name="category[]" value="an4">
+                              <label for="an4">Nest framework is entirely in TypeScript</label>                        
+                           </p>                     
+               </fieldset>
+
+               <pre>
+
+               </pre>
+
+               <input type="submit" value="Submit">
+               <input type="reset" value="Reset">
+
+               <pre>
+                  
+               </pre>
+
+            <footer class="footerquiz" >
+               <p>Tutor: Ms.Fathima Shahlina<br><a href="mailto:sfathima@swin.edu.au" class="mylinkwhite" >sfathima@swin.edu.au</a></p>
+
+               <div class="holder">
+                  <a  href="https://twitter.com/nestframework"><img src="images/twitter4.png" alt="twitter"></a>
+                  <a  href="https://github.com/nestjs/nest"><img src="images/git.jpg" alt="github"></a>
+                  <a  href="https://discord.com/invite/nestjs"><img src="images/discord2.png" alt="discord"></a>
+                  <a  href="https://www.linkedin.com/company/nestjs"><img src="images/linkedin6.png" alt="twitter"></a>
+               </div>
+
+               <p>Project by Meta-Taskforce<br>
+                  <a href="https://www.swinburne.edu.au/" class="mylinkwhite">@Swinburne University Of Technology</a>
+               </p>
+         </footer>
+      </form>
+   </body>
+</html>   
+
+
